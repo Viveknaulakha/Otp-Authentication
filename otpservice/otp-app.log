@@ -1,0 +1,157 @@
+2026-02-23T14:15:23.572+05:30  INFO 2884 --- [otpservice] [main] c.v.otpservice.OtpserviceApplication     : Starting OtpserviceApplication using Java 17.0.18 with PID 2884 (C:\Users\user\IdeaProjects\otpservice\target\classes started by user in C:\Users\user\IdeaProjects\otpservice)
+2026-02-23T14:15:23.603+05:30  INFO 2884 --- [otpservice] [main] c.v.otpservice.OtpserviceApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-02-23T14:15:25.033+05:30  INFO 2884 --- [otpservice] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-23T14:15:25.165+05:30  INFO 2884 --- [otpservice] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 108 ms. Found 1 JPA repository interface.
+2026-02-23T14:15:26.075+05:30  INFO 2884 --- [otpservice] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-02-23T14:15:26.093+05:30  INFO 2884 --- [otpservice] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-23T14:15:26.099+05:30  INFO 2884 --- [otpservice] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-23T14:15:26.212+05:30  INFO 2884 --- [otpservice] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2459 ms
+2026-02-23T14:15:26.518+05:30  INFO 2884 --- [otpservice] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-02-23T14:15:26.666+05:30  INFO 2884 --- [otpservice] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.1.Final
+2026-02-23T14:15:27.650+05:30  INFO 2884 --- [otpservice] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-23T14:15:27.733+05:30  INFO 2884 --- [otpservice] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-23T14:15:28.157+05:30  INFO 2884 --- [otpservice] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2026-02-23T14:15:28.163+05:30  INFO 2884 --- [otpservice] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-23T14:15:28.215+05:30  WARN 2884 --- [otpservice] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-23T14:15:28.263+05:30  INFO 2884 --- [otpservice] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:testdb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: TESTDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-23T14:15:30.504+05:30  INFO 2884 --- [otpservice] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-23T14:15:30.779+05:30  INFO 2884 --- [otpservice] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-23T14:15:31.205+05:30  INFO 2884 --- [otpservice] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-23T14:15:31.722+05:30  WARN 2884 --- [otpservice] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-23T14:15:34.315+05:30  INFO 2884 --- [otpservice] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2026-02-23T14:15:34.464+05:30  INFO 2884 --- [otpservice] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-02-23T14:15:34.476+05:30  INFO 2884 --- [otpservice] [main] c.v.otpservice.OtpserviceApplication     : Started OtpserviceApplication in 11.932 seconds (process running for 15.744)
+2026-02-23T14:15:59.733+05:30  INFO 2884 --- [otpservice] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-23T14:15:59.734+05:30  INFO 2884 --- [otpservice] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-02-23T14:15:59.743+05:30  INFO 2884 --- [otpservice] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2026-02-23T14:15:59.896+05:30  INFO 2884 --- [otpservice] [http-nio-8080-exec-1] c.vivek.otpservice.service.OtpService    : Generating OTP for mobile number: 9876543210
+2026-02-23T14:16:00.267+05:30  INFO 2884 --- [otpservice] [http-nio-8080-exec-1] c.vivek.otpservice.service.OtpService    : OTP generated successfully for mobile number: 9876543210
+2026-02-23T14:16:16.411+05:30 ERROR 2884 --- [otpservice] [http-nio-8080-exec-3] c.vivek.otpservice.service.OtpService    : Invalid OTP attempt 1 for 9876543210
+2026-02-23T14:16:35.580+05:30  INFO 2884 --- [otpservice] [http-nio-8080-exec-4] c.vivek.otpservice.service.OtpService    : Generating OTP for mobile number: 9876543210
+2026-02-23T14:16:35.586+05:30  INFO 2884 --- [otpservice] [http-nio-8080-exec-4] c.vivek.otpservice.service.OtpService    : OTP generated successfully for mobile number: 9876543210
+2026-02-23T14:16:47.350+05:30 ERROR 2884 --- [otpservice] [http-nio-8080-exec-5] c.vivek.otpservice.service.OtpService    : Invalid OTP attempt 1 for 9876543210
+2026-02-23T14:17:10.509+05:30  INFO 2884 --- [otpservice] [http-nio-8080-exec-6] c.vivek.otpservice.service.OtpService    : Generating OTP for mobile number: 9876543210
+2026-02-23T14:17:10.523+05:30  INFO 2884 --- [otpservice] [http-nio-8080-exec-6] c.vivek.otpservice.service.OtpService    : OTP generated successfully for mobile number: 9876543210
+2026-02-23T14:17:22.788+05:30 ERROR 2884 --- [otpservice] [http-nio-8080-exec-7] c.vivek.otpservice.service.OtpService    : Invalid OTP attempt 1 for 9876543210
+2026-02-23T14:17:33.907+05:30  INFO 2884 --- [otpservice] [http-nio-8080-exec-8] c.vivek.otpservice.service.OtpService    : Generating OTP for mobile number: 9876543210
+2026-02-23T14:17:33.908+05:30  INFO 2884 --- [otpservice] [http-nio-8080-exec-8] c.vivek.otpservice.service.OtpService    : OTP generated successfully for mobile number: 9876543210
+2026-02-23T14:18:28.491+05:30  INFO 2884 --- [otpservice] [http-nio-8080-exec-10] c.vivek.otpservice.service.OtpService    : Generating OTP for mobile number: 9876543210
+2026-02-23T14:18:28.495+05:30  INFO 2884 --- [otpservice] [http-nio-8080-exec-10] c.vivek.otpservice.service.OtpService    : OTP generated successfully for mobile number: 9876543210
+2026-02-23T14:18:46.468+05:30 ERROR 2884 --- [otpservice] [http-nio-8080-exec-2] c.vivek.otpservice.service.OtpService    : Invalid OTP attempt 1 for 9876543210
+2026-02-23T14:19:12.781+05:30  INFO 2884 --- [otpservice] [http-nio-8080-exec-1] c.vivek.otpservice.service.OtpService    : Generating OTP for mobile number: 9876543210
+2026-02-23T14:19:12.783+05:30  INFO 2884 --- [otpservice] [http-nio-8080-exec-1] c.vivek.otpservice.service.OtpService    : OTP generated successfully for mobile number: 9876543210
+2026-02-23T14:20:11.769+05:30  INFO 2884 --- [otpservice] [http-nio-8080-exec-3] c.vivek.otpservice.service.OtpService    : Generating OTP for mobile number: 9876543210
+2026-02-23T14:20:11.778+05:30  INFO 2884 --- [otpservice] [http-nio-8080-exec-3] c.vivek.otpservice.service.OtpService    : OTP generated successfully for mobile number: 9876543210
+2026-02-23T14:21:59.974+05:30 ERROR 2884 --- [otpservice] [http-nio-8080-exec-6] c.vivek.otpservice.service.OtpService    : Invalid OTP attempt 1 for 9876543210
+2026-02-23T14:22:15.317+05:30  INFO 2884 --- [otpservice] [http-nio-8080-exec-7] c.vivek.otpservice.service.OtpService    : Generating OTP for mobile number: 9876543210
+2026-02-23T14:22:15.336+05:30  INFO 2884 --- [otpservice] [http-nio-8080-exec-7] c.vivek.otpservice.service.OtpService    : OTP generated successfully for mobile number: 9876543210
+2026-02-23T14:22:35.618+05:30 ERROR 2884 --- [otpservice] [http-nio-8080-exec-8] c.vivek.otpservice.service.OtpService    : Invalid OTP attempt 1 for 9876543210
+2026-02-23T14:22:47.667+05:30  INFO 2884 --- [otpservice] [http-nio-8080-exec-9] c.vivek.otpservice.service.OtpService    : Generating OTP for mobile number: 9876543210
+2026-02-23T14:22:47.683+05:30  INFO 2884 --- [otpservice] [http-nio-8080-exec-9] c.vivek.otpservice.service.OtpService    : OTP generated successfully for mobile number: 9876543210
+2026-02-23T14:23:02.943+05:30 ERROR 2884 --- [otpservice] [http-nio-8080-exec-10] c.vivek.otpservice.service.OtpService    : Invalid OTP attempt 1 for 9876543210
+2026-02-23T14:23:15.306+05:30  INFO 2884 --- [otpservice] [http-nio-8080-exec-2] c.vivek.otpservice.service.OtpService    : Generating OTP for mobile number: 9876543210
+2026-02-23T14:23:15.310+05:30  INFO 2884 --- [otpservice] [http-nio-8080-exec-2] c.vivek.otpservice.service.OtpService    : OTP generated successfully for mobile number: 9876543210
+2026-02-23T14:23:27.259+05:30 ERROR 2884 --- [otpservice] [http-nio-8080-exec-1] c.vivek.otpservice.service.OtpService    : Invalid OTP attempt 1 for 9876543210
+2026-02-23T14:24:50.429+05:30  INFO 2884 --- [otpservice] [http-nio-8080-exec-5] c.vivek.otpservice.service.OtpService    : Generating OTP for mobile number: 9876543210
+2026-02-23T14:24:50.433+05:30  INFO 2884 --- [otpservice] [http-nio-8080-exec-5] c.vivek.otpservice.service.OtpService    : OTP generated successfully for mobile number: 9876543210
+2026-02-23T14:25:07.761+05:30 ERROR 2884 --- [otpservice] [http-nio-8080-exec-6] c.vivek.otpservice.service.OtpService    : Invalid OTP attempt 1 for 9876543210
+2026-02-23T14:25:09.077+05:30 ERROR 2884 --- [otpservice] [http-nio-8080-exec-7] c.vivek.otpservice.service.OtpService    : Invalid OTP attempt 2 for 9876543210
+2026-02-23T14:25:10.267+05:30 ERROR 2884 --- [otpservice] [http-nio-8080-exec-8] c.vivek.otpservice.service.OtpService    : Invalid OTP attempt 3 for 9876543210
+2026-02-23T14:25:11.329+05:30  WARN 2884 --- [otpservice] [http-nio-8080-exec-9] c.vivek.otpservice.service.OtpService    : Maximum attempts exceeded for 9876543210
+2026-02-23T14:32:05.043+05:30  INFO 2884 --- [otpservice] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-23T14:32:05.489+05:30  INFO 2884 --- [otpservice] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-02-23T14:32:05.760+05:30  INFO 2884 --- [otpservice] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-23T14:32:05.983+05:30  INFO 2884 --- [otpservice] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-02-23T14:32:06.669+05:30  INFO 2884 --- [otpservice] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-02-23T14:39:02.183+05:30  INFO 6564 --- [otpservice] [main] c.v.otpservice.OtpserviceApplication     : Starting OtpserviceApplication using Java 17.0.18 with PID 6564 (C:\Users\user\IdeaProjects\otpservice\target\classes started by user in C:\Users\user\IdeaProjects\otpservice)
+2026-02-23T14:39:02.183+05:30  INFO 6564 --- [otpservice] [main] c.v.otpservice.OtpserviceApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-02-23T14:39:03.551+05:30  INFO 6564 --- [otpservice] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-23T14:39:03.676+05:30  INFO 6564 --- [otpservice] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 99 ms. Found 1 JPA repository interface.
+2026-02-23T14:39:04.520+05:30  INFO 6564 --- [otpservice] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-02-23T14:39:04.535+05:30  INFO 6564 --- [otpservice] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-23T14:39:04.535+05:30  INFO 6564 --- [otpservice] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-23T14:39:04.629+05:30  INFO 6564 --- [otpservice] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2321 ms
+2026-02-23T14:39:04.879+05:30  INFO 6564 --- [otpservice] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-02-23T14:39:04.988+05:30  INFO 6564 --- [otpservice] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.1.Final
+2026-02-23T14:39:05.863+05:30  INFO 6564 --- [otpservice] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-23T14:39:05.941+05:30  INFO 6564 --- [otpservice] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-23T14:39:06.254+05:30  INFO 6564 --- [otpservice] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2026-02-23T14:39:06.254+05:30  INFO 6564 --- [otpservice] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-23T14:39:06.301+05:30  WARN 6564 --- [otpservice] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-23T14:39:06.332+05:30  INFO 6564 --- [otpservice] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:testdb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: TESTDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-23T14:39:07.702+05:30  INFO 6564 --- [otpservice] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-23T14:39:07.796+05:30  INFO 6564 --- [otpservice] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-23T14:39:07.952+05:30  INFO 6564 --- [otpservice] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-23T14:39:08.264+05:30  WARN 6564 --- [otpservice] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-23T14:39:08.780+05:30  INFO 6564 --- [otpservice] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2026-02-23T14:39:08.860+05:30  INFO 6564 --- [otpservice] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-02-23T14:39:08.860+05:30  INFO 6564 --- [otpservice] [main] c.v.otpservice.OtpserviceApplication     : Started OtpserviceApplication in 7.777 seconds (process running for 9.373)
+2026-02-23T14:40:26.356+05:30  INFO 6564 --- [otpservice] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-23T14:40:26.373+05:30  INFO 6564 --- [otpservice] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-02-23T14:40:26.456+05:30  INFO 6564 --- [otpservice] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 83 ms
+2026-02-23T14:48:14.858+05:30  INFO 6564 --- [otpservice] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-23T14:48:15.405+05:30  INFO 6564 --- [otpservice] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-02-23T14:48:15.863+05:30  INFO 6564 --- [otpservice] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-23T14:48:16.175+05:30  INFO 6564 --- [otpservice] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-02-23T14:48:16.378+05:30  INFO 6564 --- [otpservice] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-02-23T14:52:30.121+05:30  INFO 9020 --- [otpservice] [main] c.v.otpservice.OtpserviceApplication     : Starting OtpserviceApplication using Java 17.0.18 with PID 9020 (C:\Users\user\IdeaProjects\otpservice\target\classes started by user in C:\Users\user\IdeaProjects\otpservice)
+2026-02-23T14:52:30.121+05:30  INFO 9020 --- [otpservice] [main] c.v.otpservice.OtpserviceApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-02-23T14:52:31.504+05:30  INFO 9020 --- [otpservice] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-23T14:52:31.598+05:30  INFO 9020 --- [otpservice] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 1 JPA repository interface.
+2026-02-23T14:52:32.348+05:30  INFO 9020 --- [otpservice] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-02-23T14:52:32.363+05:30  INFO 9020 --- [otpservice] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-23T14:52:32.363+05:30  INFO 9020 --- [otpservice] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-23T14:52:32.457+05:30  INFO 9020 --- [otpservice] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2202 ms
+2026-02-23T14:52:32.686+05:30  INFO 9020 --- [otpservice] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-02-23T14:52:32.822+05:30  INFO 9020 --- [otpservice] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.1.Final
+2026-02-23T14:52:33.649+05:30  INFO 9020 --- [otpservice] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-23T14:52:33.712+05:30  INFO 9020 --- [otpservice] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-23T14:52:34.024+05:30  INFO 9020 --- [otpservice] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2026-02-23T14:52:34.024+05:30  INFO 9020 --- [otpservice] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-23T14:52:34.071+05:30  WARN 9020 --- [otpservice] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-23T14:52:34.102+05:30  INFO 9020 --- [otpservice] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:testdb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: TESTDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-23T14:52:35.516+05:30  INFO 9020 --- [otpservice] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-23T14:52:35.610+05:30  INFO 9020 --- [otpservice] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-23T14:52:35.766+05:30  INFO 9020 --- [otpservice] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-23T14:52:36.079+05:30  WARN 9020 --- [otpservice] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-23T14:52:36.516+05:30  INFO 9020 --- [otpservice] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2026-02-23T14:52:36.594+05:30  INFO 9020 --- [otpservice] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-02-23T14:52:36.594+05:30  INFO 9020 --- [otpservice] [main] c.v.otpservice.OtpserviceApplication     : Started OtpserviceApplication in 7.529 seconds (process running for 9.143)
+2026-02-23T14:54:25.085+05:30  INFO 9020 --- [otpservice] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-23T14:54:25.682+05:30  INFO 9020 --- [otpservice] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-02-23T14:54:25.885+05:30  INFO 9020 --- [otpservice] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-23T14:54:26.025+05:30  INFO 9020 --- [otpservice] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-02-23T14:54:26.116+05:30  INFO 9020 --- [otpservice] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
